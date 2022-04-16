@@ -1,0 +1,26 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "description": "Super test",
+  "repository": "",
+  "main": "index.ts",
+  "engines": {
+    "node": "=14.16.0"
+  },
+  "scripts": {
+    "stop-win": "Taskkill /IM node.exe /F",
+    "stop-unix": "killall node",
+    "build": "babel src --out-dir built --extensions '.ts,.tsx'",
+    "tsc": "tsc",
+    "test": "node built/main.js",
+    "clean": "rm -rf built node_modules"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "=7.16.8",
+    "@babel/core": "=7.16.12",
+    "@babel/preset-env": "=7.16.11",
+    "@babel/preset-typescript": "=7.16.7",
+    "typescript": "=4.6.3"
+  }
+}
