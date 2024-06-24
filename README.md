@@ -1,3 +1,6 @@
+FRED JABBARI:  THIS IS A VERY VERY GOOD SOURCE
+It shows OOP and Modules... PERFECT.. 
+Show how this will solve Terraform Global pattern limitation...
 # README
 
 [![](https://img.shields.io/badge/typescript-lang-blue.svg)](https://www.typescriptlang.org/)
